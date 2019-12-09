@@ -4,7 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 import googlemaps
 import xlwt
 
-google_maps_api_key = googlemaps.Client(key="AIzaSyCYfNCQ7h3Gpy4FCa6q7m_baCOG8DL7E0o")
+google_maps_api_key = googlemaps.Client(key="GOOGLE_API_KEY")
 
 
 # Create your views here.
