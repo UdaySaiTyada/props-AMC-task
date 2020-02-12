@@ -6,6 +6,8 @@ import xlwt
 
 google_maps_api_key = googlemaps.Client(key="AIzaSyCYfNCQ7h3Gpy4FCa6q7m_baCOG8DL7E0o")
 
+def demo():
+	return 1
 
 # Create your views here.
 @csrf_exempt
